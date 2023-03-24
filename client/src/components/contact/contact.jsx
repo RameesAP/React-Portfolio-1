@@ -14,19 +14,19 @@ const contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
-            <MdOutlineEmail />
+            <MdOutlineEmail  className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>rameeswork@gmail.com</h5>
             <a href="mailto:rameeswork@gmail.com" target='_blank'>Send a Message</a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine />
+            <RiMessengerLine  className='contact__option-icon'/>
             <h4>Instagram</h4>
             <h5>__ramees_</h5>
             <a href=" https://ig.me/m/_ramees__" target='_blank'>Send a Message</a>
           </article>
           <article className='contact__option'>
-            <AiOutlineLinkedin />
+            <AiOutlineLinkedin  className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Mohamed Ramees</h5>
             <a href="https://www.linkedin.com/in/mohamed-ramees-3770b6178/" target='_blank'>Send a Message</a>
@@ -34,7 +34,12 @@ const contact = () => {
         </div>
 
         {/* END OF CONTACT OPTION */}
-        <form action=""></form>
+        <form action="">
+          <input type="text" name='name' placeholder='Your full name' required/>
+          <input type="email" name='email' placeholder='Your Email' required/>
+          <textarea name="Meassage" rows="7" placeholder='Your Message'></textarea>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+        </form>
       </div>
     </section>
     )
