@@ -21,37 +21,37 @@ const data =[
     id:2,
     image:IMG2,
     title:"The Fit Club",
-    github:"https://github.com/RameesAP/hypebeast",
-    demo:"https://hyperbeast.shop/"
+    github:"https://github.com/RameesAP/gym-react",
+    demo:"https://rameesfitclub.pages.dev/"
   },
   {
     id:3,
     image:IMG3,
     title:"Netflix-Clone",
-    github:"https://github.com/RameesAP/hypebeast",
-    demo:"https://hyperbeast.shop/"
+    github:"https://github.com/RameesAP/netflix-react",
+    demo:"https://soft-snickerdoodle-b9e478.netlify.app/"
   },
   {
     id:4,
     image:IMG4,
     title:"OLX-Clone",
-    github:"https://github.com/RameesAP/hypebeast",
-    demo:"https://hyperbeast.shop/"
+    github:"https://github.com/RameesAP/olx-react",
+    demo:"https://thunderous-mandazi-4ef9e3.netlify.app/"
   },
-  {
-    id:5,
-    image:IMG5,
-    title:"E-commerce website",
-    github:"https://github.com/RameesAP/hypebeast",
-    demo:"https://hyperbeast.shop/"
-  },
-  {
-    id:6,
-    image:IMG6,
-    title:"E-commerce website",
-    github:"https://github.com/RameesAP/hypebeast",
-    demo:"https://hyperbeast.shop/"
-  },
+  // {
+  //   id:5,
+  //   image:IMG5,
+  //   title:"E-commerce website",
+  //   github:"https://github.com/RameesAP/hypebeast",
+  //   demo:"https://hyperbeast.shop/"
+  // },
+  // {
+  //   id:6,
+  //   image:IMG6,
+  //   title:"E-commerce website",
+  //   github:"https://github.com/RameesAP/hypebeast",
+  //   demo:"https://hyperbeast.shop/"
+  // },
 ]
 
 const portfolio = () => {
