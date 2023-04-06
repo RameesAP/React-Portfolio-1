@@ -2,9 +2,9 @@ import React from 'react'
 import './portfolio.css'
 
 import IMG1 from '../../assets/Portfolio1.1.png'
-import IMG2 from '../../assets/portfolio1.jpg'
-import IMG3 from '../../assets/portfolio2.jpg'
-import IMG4 from '../../assets/portfolio3.jpg'
+import IMG2 from '../../assets/portfolio1.png'
+import IMG3 from '../../assets/portfolio2.png'
+import IMG4 from '../../assets/portfolio3.png'
 import IMG5 from '../../assets/portfolio4.jpg'
 import IMG6 from '../../assets/portfolio5.png'
 
@@ -20,21 +20,21 @@ const data =[
   {
     id:2,
     image:IMG2,
-    title:"E-commerce website",
+    title:"The Fit Club",
     github:"https://github.com/RameesAP/hypebeast",
     demo:"https://hyperbeast.shop/"
   },
   {
     id:3,
     image:IMG3,
-    title:"E-commerce website",
+    title:"Netflix-Clone",
     github:"https://github.com/RameesAP/hypebeast",
     demo:"https://hyperbeast.shop/"
   },
   {
     id:4,
     image:IMG4,
-    title:"E-commerce website",
+    title:"OLX-Clone",
     github:"https://github.com/RameesAP/hypebeast",
     demo:"https://hyperbeast.shop/"
   },
